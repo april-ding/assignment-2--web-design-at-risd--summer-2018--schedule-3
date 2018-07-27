@@ -1,0 +1,75 @@
+/*****    QUESTIONS     *****
+1. Ask about the website sizing; bring up the grid
+
+
+*/
+
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+h1 {
+   position: absolute;
+   top: 276px; left: 645px;
+   width: 635px;
+   font-family: 'Righteous', cursive;
+   font-size: 72px;
+   text-align: left;
+}
+
+body {
+
+   width: 1200px;
+   margin: auto;
+   background: white url("../img/bg.png") no-repeat scroll 0 0/cover;
+
+}
+
+#artists {
+   position: absolute;
+   top: 10px; left: 81px;
+}
+
+#artists h2 {
+   font-family: 'Righteous', cursive;
+   font-size: 48px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   color: rgb(125, 125, 138);
+}
+
+#artists p {
+   color: rgb(125, 125, 138);
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+   font-size: 24px;
+   margin-bottom: 22px;
+}
+#tracklist {
+   position: absolute;
+   top: 382px; left: 81px;
+   width: 400px;
+
+}
+#tracklist li {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 36px;
+}
+
+#description {
+   position: absolute;
+   top: 726px; left: 646px;
+   width: 554px;
+}
+
+#description p {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   padding: 10px 0px;
+}
