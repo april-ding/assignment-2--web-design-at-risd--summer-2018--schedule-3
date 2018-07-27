@@ -10,6 +10,12 @@
    padding: 0;
 }
 
+#main-content {
+   width: 1200px;
+   margin: auto;
+
+}
+
 h1 {
    position: absolute;
    top: 276px; left: 645px;
